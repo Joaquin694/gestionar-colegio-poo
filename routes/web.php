@@ -10,7 +10,7 @@ use App\Http\Controllers\PagoController;
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('docentes');
 });
 
 // Rutas de recursos
