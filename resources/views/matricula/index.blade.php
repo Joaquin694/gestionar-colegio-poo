@@ -32,8 +32,8 @@ Matriculas
 
                 <div class="card-body" style="padding: 20px;">
                     <div>
-                        <table style="font-size: 1px;">
-                            <thead style="font-size: 15px;">
+                    <table style="font-size: 15px;">
+                                <thead style="font-size: 15px;">
                                 <tr>
                                     <th>No</th>
 
