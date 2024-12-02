@@ -13,7 +13,7 @@
                     <div>
                         <span>{{ __('Create') }} Curso</span>
                     </div>
-                    <div>
+                    <div  style="padding: 20px;">
                         <form method="POST" action="{{ route('cursos.store') }}"  role="form" enctype="multipart/form-data">
                             @csrf
 

@@ -5,50 +5,50 @@
 @endsection
 
 @section('content')
-    <section class="content container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
-                        <div class="float-left">
-                            <span class="card-title">{{ __('Show') }} Estudiante</span>
+    <section>
+        <div>
+            <div>
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: center;"  style="padding: 20px;">
+                        <div>
+                            <span>{{ __('Show') }} Estudiante</span>
                         </div>
-                        <div class="float-right">
-                            <a class="btn btn-primary btn-sm" href="{{ route('estudiantes.index') }}"> {{ __('Back') }}</a>
+                        <div>
+                            <a href="{{ route('estudiantes.index') }}"> {{ __('Back') }}</a>
                         </div>
                     </div>
 
-                    <div class="card-body">
+                    <div>
                         
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Nombre:</strong>
                                     {{ $estudiante->nombre }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Apellido:</strong>
                                     {{ $estudiante->apellido }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Fecha Nacimiento:</strong>
                                     {{ $estudiante->fecha_nacimiento }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Direccion:</strong>
                                     {{ $estudiante->direccion }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Telefono:</strong>
                                     {{ $estudiante->telefono }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Email:</strong>
                                     {{ $estudiante->email }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Fecha Matricula:</strong>
                                     {{ $estudiante->fecha_matricula }}
                                 </div>
-                                <div class="form-group mb-2 mb20">
+                                <div>
                                     <strong>Estado Matricula:</strong>
                                     {{ $estudiante->estado_matricula }}
                                 </div>

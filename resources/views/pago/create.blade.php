@@ -5,15 +5,15 @@
 @endsection
 
 @section('content')
-    <section class="content container-fluid">
-        <div class="row">
-            <div class="col-md-12">
+    <section>
+        <div>
+            <div>
 
-                <div class="card card-default">
-                    <div class="card-header">
-                        <span class="card-title">{{ __('Create') }} Pago</span>
+                <div>
+                    <div>
+                        <span>{{ __('Create') }} Pago</span>
                     </div>
-                    <div class="card-body">
+                    <div style="padding: 20px;">
                         <form method="POST" action="{{ route('pagos.store') }}"  role="form" enctype="multipart/form-data">
                             @csrf
 

@@ -9,7 +9,7 @@
     <div>
         <div>
             <div>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; justify-content: space-between; align-items: center;" style="padding: 20px;">
                     <div>
                         <span>{{ __('Show') }} Asistencia</span>
                     </div>

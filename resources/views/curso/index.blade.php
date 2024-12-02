@@ -12,24 +12,24 @@
                     <div>
                         <div style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
 
-                            <span id="card_title">
+                            <span>
                                 {{ __('Cursos') }}
                             </span>
 
                              <div class="float-right">
-                                <a href="{{ route('cursos.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
+                                <a href="{{ route('cursos.create') }}" data-placement="left">
                                   {{ __('Create New') }}
                                 </a>
                               </div>
                         </div>
                     </div>
                     @if ($message = Session::get('success'))
-                        <div class="alert alert-success m-4">
+                        <div style="background-color: red; border-radius: 5px;">
                             <p>{{ $message }}</p>
                         </div>
                     @endif
 
-                    <div class="card-body" style="padding: 20px;">
+                    <div style="padding: 20px;">
                         <div>
                             <table style="font-size: 15px;">
                                 <thead style="font-size: 15px;">

@@ -39,7 +39,7 @@
         .navbar-nav {
             list-style: none;
             display: flex;
-            margin: 0;
+            margin: 25px;
             padding: 0;
         }
 

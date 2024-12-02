@@ -8,16 +8,16 @@
 <div>
     <div>
         <div>
-            <div class="card">
-                <div class="pure-g">
-                    <div class="pure-u-1"
+            <div>
+                <div>
+                    <div
                         style="display: flex; padding: 20px; justify-content: space-between; align-items: center;">
 
                         <span id="card_title">
                             {{ __('Asistencias') }}
                         </span>
 
-                        <div class="float-right">
+                        <div>
                             <a href="{{ route('asistencias.create') }}" data-placement="left">
                                 {{ __('Create New') }}
                             </a>
@@ -25,12 +25,12 @@
                     </div>
                 </div>
                 @if ($message = Session::get('success'))
-                    <div>
+                    <div style="background-color: red; border-radius: 5px;">
                         <p>{{ $message }}</p>
                     </div>
                 @endif
 
-                <div class="card-body" style="padding: 20px;">
+                <div style="padding: 20px;">
                     <div>
                     <table style="font-size: 15px;">
                                 <thead style="font-size: 15px;">

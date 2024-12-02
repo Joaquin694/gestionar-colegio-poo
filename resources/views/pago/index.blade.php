@@ -5,19 +5,19 @@ Pagos
 @endsection
 
 @section('content')
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="card">
-                <div class="card-header">
-                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+<div>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div style="display: flex; padding: 20px; justify-content: space-between; align-items: center; padding: 20px;">
 
                         <span id="card_title">
                             {{ __('Pagos') }}
                         </span>
 
-                        <div class="float-right">
-                            <a href="{{ route('pagos.create') }}" class="btn btn-primary btn-sm float-right"
+                        <div>
+                            <a href="{{ route('pagos.create') }}"
                                 data-placement="left">
                                 {{ __('Create New') }}
                             </a>
@@ -25,7 +25,7 @@ Pagos
                     </div>
                 </div>
                 @if ($message = Session::get('success'))
-                    <div class="alert alert-success m-4">
+                    <div style="background-color: red; border-radius: 5px;">
                         <p>{{ $message }}</p>
                     </div>
                 @endif

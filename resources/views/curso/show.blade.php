@@ -9,12 +9,12 @@
     <div>
         <div>
             <div>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; justify-content: space-between; align-items: center;"  style="padding: 20px;">
                     <div class="float-left">
                         <span class="card-title">{{ __('Show') }} Curso</span>
                     </div>
-                    <div class="float-right">
-                        <a class="btn btn-primary btn-sm" href="{{ route('cursos.index') }}"> {{ __('Back') }}</a>
+                    <div>
+                        <a href="{{ route('cursos.index') }}"> {{ __('Back') }}</a>
                     </div>
                 </div>
 
